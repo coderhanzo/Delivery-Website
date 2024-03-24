@@ -1,9 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
+      <h1>Learning react with scss</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <button>Yellow btn</button>
+        <button>Red btn</button>
+        <button>Blue btn</button>
       </header>
     </div>
   );
